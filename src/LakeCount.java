@@ -24,7 +24,6 @@ class LakeCountSolution {
                 System.arraycopy(line, 0, field[i], 0, m);
             }
         }
-        System.out.println(Arrays.deepToString(field));
     }
 
     private void dfs(int x, int y) {
