@@ -1,7 +1,11 @@
+package partial_sum;
+
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import util.StandardInputStream;
+import util.StandardOutputStream;
 
 import static org.hamcrest.CoreMatchers.is;
 

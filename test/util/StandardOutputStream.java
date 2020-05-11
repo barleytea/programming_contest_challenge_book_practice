@@ -1,9 +1,11 @@
+package util;
+
 import java.io.*;
 
-class StandardOutputStream extends PrintStream {
+public class StandardOutputStream extends PrintStream {
     private BufferedReader br = new BufferedReader(new StringReader(""));
 
-    StandardOutputStream() {
+    public StandardOutputStream() {
         super(new ByteArrayOutputStream());
     }
 

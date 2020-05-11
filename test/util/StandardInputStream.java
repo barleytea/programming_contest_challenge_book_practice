@@ -1,3 +1,5 @@
+package util;
+
 import java.io.InputStream;
 
 public class StandardInputStream extends InputStream {
@@ -7,7 +9,7 @@ public class StandardInputStream extends InputStream {
     /**
      *
      */
-    void inputln(String str){
+    public void inputln(String str){
         sb.append(str).append(lf);
     }
 

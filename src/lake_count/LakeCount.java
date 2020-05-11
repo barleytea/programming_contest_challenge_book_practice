@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package lake_count;
+
 import java.util.Scanner;
 
 public class LakeCount {
